@@ -16,6 +16,13 @@ trait AppendBar {
     fn append_bar(self) -> Self;
 }
 
+impl AppendBar for Vector {
+    fn append_bar(self) -> Vector {
+
+    }
+
+}
+
 //TODO: Add your code here
 
 #[cfg(test)]
